@@ -7,13 +7,13 @@ const nextConfig = {
         protocol: 'https',  
         hostname: 'cpsumsu.org',  
         port: '',  
-        pathname: '/path/to/images/**'  
+        pathname: '/path/to/status/**'  
       },  
       {  
         protocol: 'https',  
         hostname: process.env.IMAGE_HOSTNAME,  
         port: '',  
-        pathname: '/path/to/images/**'  
+        pathname: '/path/to/status/**'  
       }  
     ]  
   }  
